@@ -12,5 +12,6 @@ int main() {
     std::cout << std::fixed << std::setprecision(2);
     std::cout << "Total students: " << book.list().size() << std::endl;
     std::cout << "Average score : " << book.getAverage() << std::endl;
+    std::cout << "Max / Min     : " << book.getMaxScore() << " / " << book.getMinScore() << std::endl;
     return 0;
 }
