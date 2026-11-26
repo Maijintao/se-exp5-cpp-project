@@ -14,6 +14,8 @@ class GradeBook {
 public:
     void addStudent(const std::string& id, const std::string& name, double score);
     double getAverage() const;
+    double getMaxScore() const;
+    double getMinScore() const;
     const std::vector<Student>& list() const;
 
 private:
